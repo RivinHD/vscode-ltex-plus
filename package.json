@@ -36,7 +36,8 @@
     "languagetool",
     "latex",
     "markdown",
-    "multi-root ready"
+    "multi-root ready",
+    "typst"
   ],
   "categories": [
     "Linters",
@@ -63,6 +64,7 @@
     "onLanguage:quarto",
     "onLanguage:restructuredtext",
     "onLanguage:rsweave",
+    "onLanguage:typst",
     "onNotebook:*"
   ],
   "contributes": {
@@ -156,7 +158,8 @@
             "org",
             "quarto",
             "restructuredtext",
-            "rsweave"
+            "rsweave",
+            "typst"
           ],
           "markdownDescription": "%ltex.i18n.configuration.ltex.enabled.markdownDescription%",
           "examples": [

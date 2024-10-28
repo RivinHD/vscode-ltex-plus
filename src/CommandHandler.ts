@@ -63,6 +63,7 @@ export default class CommandHandler {
     'quarto',
     'restructuredtext',
     'rsweave',
+    'typst'
   ];
 
   public constructor(context: Code.ExtensionContext, externalFileManager: ExternalFileManager,
@@ -497,6 +498,10 @@ export default class CommandHandler {
         }
         case 'verilog': {
           enabledFileExtensions.add('v');
+          break;
+        }
+        case 'typst': {
+          enabledFileExtensions.add('typ');
           break;
         }
       }

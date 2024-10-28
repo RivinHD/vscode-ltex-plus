@@ -73,7 +73,8 @@ export default class BugReporter {
       switch (document.languageId) {
         case 'bibtex':
         case 'latex':
-        case 'markdown': {
+        case 'markdown':
+        case 'typst': {
           codeLanguage = document.languageId;
           break;
         }
